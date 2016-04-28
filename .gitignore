@@ -14,3 +14,6 @@
 # Ignore all logfiles and tempfiles.
 /kids_cafe_backend/log/*.log
 /kids_cafe_backend/tmp
+
+# Ignore node_modules
+/kids_cafe_frontend/node_modules
