@@ -3,9 +3,13 @@ source 'https://rubygems.org'
 
 gem 'mysql2'
 gem 'rails', '4.1.14.2'
-gem 'spring',        group: :development
 
+group :development do
+  gem 'spring'
+end
 
 group :test do
   gem "rspec-rails", "~> 3.4.2"
+  gem 'factory_girl_rails'
+  gem 'pry-rails'
 end
